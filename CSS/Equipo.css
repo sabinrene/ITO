@@ -1,0 +1,38 @@
+/* Portafolio */
+
+.Equipo {
+  position: relative;
+  text-align: center;
+  
+}
+
+.E-Title {
+  width: 70%;
+  margin: 0 auto;
+}
+  .E-Title h1{
+    font-size: 2.6em;
+    font-family: DINPro-Regular;
+  }
+  .E-Title p{
+    font-family: DINPro-Light;
+  }
+
+
+.E-Section {
+  position: relative;
+  margin: 0 auto;
+  width: 1250px;
+}
+
+.E-Row {
+  margin-bottom: 20px;
+}
+.E-Row img {
+  margin-right: 30px;
+}
+  .E-Row img:last-child {
+    margin-right: 0px;
+  }
+
+

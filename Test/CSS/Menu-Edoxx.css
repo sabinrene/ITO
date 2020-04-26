@@ -1,0 +1,106 @@
+/*--------------*/
+/*   Menu Top   */
+/*--------------*/
+.Topper { 
+    position: relative;
+    height: auto;
+    margin: 20px 0;
+    width: 100%;
+    height: 147px;
+}
+.TopWrap {
+    position: relative;
+    width: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.Logo { 
+    position: relative;
+    width: 150px;
+}
+
+            
+
+
+
+
+
+
+
+/*--------------*/
+/*     Menu     */
+/*--------------*/
+.NavSticky {
+    background: #303747;
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid #EA4A3B;
+    height: 60px;    /* = Nav Height */   
+}
+
+.NavWrap {
+    position: relative;
+    width: 708px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: teal;
+}
+
+    nav {
+        position: relative;
+        text-transform: uppercase;
+        /* Font-size by Style */
+        float: left;
+        width: 100%;        
+        font-size: 12px;
+    }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            position: relative;
+            float: left;
+            margin: 0;
+            letter-spacing: 2px;
+            line-height: 58px;      /* = Nav Height */ 
+        }
+
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            display: block; /* Block adds Padding */
+            transition: 0.6s color;
+            padding: 0 10;
+        }
+        nav ul li a:hover {
+            background: #3B4150;
+            border-bottom: 2px solid #EA4A3B;
+            margin-bottom: -2px;
+        }
+
+            nav ul ul {
+                position:absolute;
+                display: none;
+                background: #3B4150;
+            }
+            nav ul ul li {
+                list-style:decimal;
+                color: white;
+                margin-left: 30px;
+                width: 210px;
+                line-height: 45px;
+            }
+
+                /* SubMenu One */
+                nav ul ul li a:hover {
+                    border-bottom: 0;
+                    border-right: 5px solid #EA4A3B;
+                }
+
+                nav ul li:hover > ul {
+                    display: block;
+                } 
+                                

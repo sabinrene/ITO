@@ -1,0 +1,163 @@
+
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    height: 300px;
+    color: #303747;
+    padding: 40px 0px;
+    background-color: white;
+    border-top: 2px solid #EA4A3B;
+}
+.FootWrap {
+    background: lightblue;
+    margin: 0 auto;
+}
+.FootWrap ul li {
+    list-style-type: none;
+    /* Font-size */
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    float: left;
+}
+.iRight {
+    /* Float Right on Desktop */
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Mobile Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (max-width: 479px) {
+   
+
+    
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    /* General */
+}
+.FootWrap {
+    width: 200px;
+    font-size: 0.85em;
+    margin: 0 auto;
+}
+.FootWrap ul li {
+    font-size: 0.80em;
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    width: 100%;
+}
+.iRight {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+    
+    
+/* Mobile Version END */       
+}
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Tablet Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+     
+    
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    /* General */
+}
+.FootWrap {
+    width: 450px;
+    font-size: 0.85em;
+}
+.FootWrap ul li {
+    font-size: 0.9em;
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    width: 200px;
+}
+.iRight {
+    float: right;
+    width: 200px;
+}
+    
+/* Tablet Version END */     
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Desktop Styles                          */
+/* ---------------------------------------------------------------- */
+                    /*     960px - Infinity    */
+@media only screen and (min-width: 961px) {
+
+    
+
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    height: 300px;
+    width: 100%;
+    color: #303747;
+    padding: 40px 0px;
+    border-top: 2px solid #EA4A3B;
+    
+}
+.FootWrap {
+    width: 800px;
+    font-size: 1em;
+}
+.FootWrap ul li {
+    font-size: 0.9em;
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    width: 320px;
+}
+.iRight {
+    float: right;
+}
+
+
+
+    
+/* Desktop Version END */    
+}
+
+
+

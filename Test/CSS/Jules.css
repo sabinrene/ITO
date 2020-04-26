@@ -1,0 +1,192 @@
+/* ------------------------- */
+/*   Digital Transformation  */
+/* ------------------------- */
+
+.Digital-Trans {
+    position: relative;
+    height: auto;
+    padding: 60px 0;
+    background-color: #F5F5F5;
+}
+.Digital-Trans .btn {
+    background-color: #ADADAD;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.Digital-Trans h2 {
+    color: #AB0033;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.Digi-wrap {
+    position: relative;
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Digi-Box { 
+    position: relative;
+    height: auto;
+    width: 305px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-size: 2em;
+}
+    .Digi-Box-Left { 
+        position: relative;
+        padding: 7px;
+        float: left;
+        background-color: #002F55;
+        border-radius: 3px 0 0 3px;
+    }
+    .Digi-Box-Right { 
+        position: relative;
+        padding: 7px;
+        font-weight: bold;
+        float: left;
+        border-radius: 0 3px 3px 0;
+        background-color: #C41152;
+    }
+    .Digi-Clear::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.Digi-Txt {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------- */
+/*   LR Section    */
+/* --------------- */
+.LR-Sec-Clear {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+    /* ----------- */
+    /* Section ONE */
+    /* ----------- */
+.LR-One-Section {
+    position: relative;
+    height: 600px;
+    background-color: #F5F4F3;
+    padding: 50px;
+}
+
+/* Left Side */
+.LR-One-Sec-Left {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+    .LR-One-Sec-L {
+        position: relative;
+        height: 100%;
+        padding: 10px;
+        background-color: white;
+    }
+    .LR-One-Left-Pic {
+        position: relative;
+        height: 90%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+
+/* Right Side */
+.LR-ONE-Sec-Right {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+
+.LR-ONE-Sec-R {
+    position: relative;
+    height: 100%;
+    padding: 60px 0;
+    background-color: white;
+}
+    .LR-ONE-Sec-R-wrap {
+        position: relative;
+        width: 90%;
+        height: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+
+
+    /* ----------- */
+    /* Section TWO */
+    /* ----------- */
+
+.LR-Two-Section {
+    position: relative;
+    height: 600px;
+    background-color: #F5F4F3;
+    padding: 50px;
+}
+
+/* Left Side */
+.LR-Two-Sec-Left {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+    .LR-Two-Sec-L {
+        position: relative;
+        height: 100%;
+        padding: 10px;
+        background-color: white;
+    }
+    .LR-Two-Left-Pic {
+        position: relative;
+        height: 90%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+
+/* Right Side */
+.LR-Two-Sec-Right {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+
+.LR-Two-Sec-R {
+    position: relative;
+    height: 100%;
+    padding: 60px 0;
+    background-color: white;
+}
+    .LR-Two-Sec-R-wrap {
+        position: relative;
+        width: 90%;
+        height: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }

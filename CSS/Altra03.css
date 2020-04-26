@@ -1,0 +1,130 @@
+/* Altra03 */
+
+.SmBanner {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  height: 35vh;
+
+  background: url("../images/Bogota.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;   /* Sick Effect */
+  opacity: 0.95;
+}
+
+  .SmBanner-Headings {
+    position: static;
+    transform: translate(2%,80%);
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px;
+  }
+
+  .SmBanner-Headings h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 3.4em;
+    text-transform: uppercase;
+  }
+
+
+
+
+  .Line {
+    color: grey;
+    margin: 60px 0 80px 0;
+    border: 1px solid lightgray;
+  }
+
+
+  .sDCol {
+    height: 400px;
+  }
+
+  .sDCol-Left {
+    height: 100%;
+    float: left;
+    width: 35%;
+  }
+    .sDCol-LeftBx {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+
+
+
+
+  .sDCol-Right {
+    position: relative;
+    height: 100%;
+    float: left;
+    width: 65%;
+  }
+    .sDCol-RightBx {
+      position: absolute;
+      left: 0px;
+      width: 87%;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+
+
+
+    .accordion-container{
+      height:  100%;
+    }
+    .accordion-container:hover{
+    }
+    .accordion-container a{
+      text-decoration: none;
+      display: block;
+      line-height: 2.5;
+      padding: 0 1vw;
+      color: black;
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+    }
+    .accordion-container p{
+      padding: 4vw;
+      margin: 0;
+      display: none;
+      transition: all 10s;
+    }
+    .accordion-container p:target{
+      display:contents;
+    }
+    .icon-h1{
+      display: inline-block;
+    }
+    .icon-h2{
+          display: none;
+        }
+
+/*
+.icon-h1:hover{
+  display: none;
+} 
+    .icon-h2:hover{
+      display: inline-block;
+    }*/
+    h5{
+      margin: 0;
+      padding: 0;
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+    .accordion-container img{
+      position: relative;
+      padding: 0;
+      margin: 0;
+      height: 35px;
+      top: 9px;
+      margin-right: 13px;
+
+    }

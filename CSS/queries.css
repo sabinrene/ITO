@@ -1,0 +1,90 @@
+@media only screen and (max-width: 2000px) {
+  .icon-container{
+    width: auto;
+    height: 4vh;
+    padding-right: 5%;
+  }
+  .social-icon {
+    height: 3vh;
+  }
+  .social-icon:hover {
+    height:3.2vh;
+    transition: .2s;
+  }
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 1023px) {
+  header{
+    height: 30vh;
+  }
+  .logo{
+    left: 50%;
+    transform: translateX(-50%);
+        }
+
+  .menu-icon {
+    position: absolute;
+    transform: translateX(-50%);
+
+    display: block;
+    left: 95%;
+    top: 10vh;
+  }
+
+  .menu ul li {
+    text-align: center;
+    padding:0;
+    display: block;
+  }
+  .menu ul li ul {
+  }
+  .menu ul li ul li {
+    display: none;
+  }
+  .menu ul li ul li a:hover {
+    background-color:  none;
+  }
+  .menu ul li ul li ul  {
+    position:relative;
+  }
+  .menu ul li ul li  {
+    font-size: 33px;
+  }
+  .menu  ul li:hover ul li {
+    display: block;
+    transition: all 4.9s;
+  }
+/*  .grey-dark {
+    background-color: #d9dedf;
+  }
+  .grey-light {
+    background-color: #e7ecee;
+  }
+  .white-blue {
+    background-color: #e3f0f3;
+  }
+  .white{
+    background-color: #f7fafb;
+  }*/
+}
+/*small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px){
+  .icon-container{
+    width: auto;
+    height: 9vh;
+    padding-right: 13%;
+  }
+  .social-icon {
+    height: 3vh;
+  }
+  .social-icon:hover {
+    height:3.2vh;
+    transition: .2s;
+  }
+
+}
+@media only screen and (max-width: 225px){
+
+}

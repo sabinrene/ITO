@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: DINPro-Medium, Arial, Helvetica, sans-serif;
+}
+#Long {
+  text-decoration: none;
+  color: #22252B;
+}
+p {
+  color: #6C7484;
+  font-family: DINPro-Medium;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: DINPro-Medium;
+  font-size: 2.5em;
+  color: #21409A;
+}
+h2 {
+  font-family: DINPro-Regular;
+  font-size: 2em;
+  color: #21409A;
+}
+h3 {
+  font-family: DINPro-Bold;
+  font-size: 1.55em;
+  color: #21409A;
+}
+
+
+
+
+  /* Fonts */
+  @font-face {
+    font-family: DINPro-Medium;
+    src: url(../Fonts/DINPro-Medium.ttf);
+  }
+  @font-face {
+    font-family: DINPro-Black;
+    src: url(../Fonts/DINPro-Black.ttf);
+  }
+  @font-face {
+    font-family: DINPro-Bold;
+    src: url(../Fonts/DINPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: DINPro-Light;
+    src: url(../Fonts/DINPro-Light.ttf);
+  }
+  @font-face {
+    font-family: DINPro-Regular;
+    src: url(../Fonts/DINPro-Regular.ttf);
+  }
+  /* FACE FONTS */
+
+
+
+
+/* Content */
+.Banner {
+  position: relative;
+  padding: 10px;
+  height: 85vh; 
+
+  background: url("../images/Bogota.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;  
+  opacity: 0.90; 
+}
+
+  .Headings {
+    position: static;
+    transform: translate(20%,50%);
+    width: 560px;
+    background-color: #1F4CB8;
+    padding: 20px;
+  }
+
+  .Headings h2 {
+    font-family: Arial;
+    font-size: 2.25em;
+    margin: 0px;
+    line-height: 40px;
+    padding: 0px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #FDFEF7;
+  }
+    .BTxt2 {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+
+
+

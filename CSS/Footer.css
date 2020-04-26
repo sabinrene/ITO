@@ -1,0 +1,24 @@
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #22252B;
+  height: 3vh;
+  color: #CDCECF;
+  font-size: 0.8em;
+}
+
+.FootWrap {
+  width: 1400px;
+  margin: auto;
+}
+
+  .foot {
+    transform: translate(0, 40%);
+    width: 33%;
+    float:left;
+    text-align: center;
+
+  }

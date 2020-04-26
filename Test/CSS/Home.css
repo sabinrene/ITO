@@ -1,0 +1,745 @@
+/* ----- */
+/*  Home */
+/* ----- */
+
+/*------------------*/
+/*   Intro Banner   */
+/*------------------*/
+.Banner {
+    width: 100%;
+    height: 85vh;
+    background: url("../images/Pages/01-Home/Edoxx-Plant-Black-60e.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   /* Sick Effect */
+}
+
+.Caption {
+    color: white;
+    background: rgba(10,20,30, 0.05);
+    /* Positioning */
+    transform: translate(-50%, -50%);
+    position:relative;
+    top: 50%;
+    left: 50%;
+    max-width: 1000px;
+    padding: 30px;
+}
+
+.Caption h1 {
+    color: white;
+    line-height: 90px;
+}
+
+.Caption p {
+    color: white;
+    font-size: 1.1em;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+
+.BtnCaption {
+    /*-- Center Btn --*/
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/*---------------------*/
+/*       Squares       */
+/*---------------------*/
+.Sq {
+    height: auto;
+    margin: 0 auto;
+}
+/* Create four equal columns that floats next to each other */
+.SqCol {
+    float: left;
+    text-align: center;
+    height: 460px;
+    width: 25%;
+    padding: 30px 30px;
+}
+
+.SqCol-in i { /* Dots */
+    font-size: 0.4em;
+}
+
+.SqCol-in h3 {
+    margin-bottom: 15px;
+}
+
+
+.SqCol-txt {
+    position: relative;
+    height: 135px;
+    font-size: 0.88em;
+    color: #787878;
+}
+
+.Icon {
+    height: 180px;
+    filter: grayscale(10%);
+    margin: 60 0 20 0;
+}
+
+      
+      
+      
+
+
+
+
+
+
+
+
+/*-------------------*/
+/*      Strategy     */
+/*-------------------*/
+.Strategy {
+    position: relative;
+    text-align: center;
+    height: 900px;
+}
+
+.Stra-1 {
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 100px;
+    width: 940px; /* Section Width */
+}
+.Stra-2-Top {
+    margin: 0 auto;
+    height: 150px;
+    width: 700px;
+}
+.Stra-2-Top p {
+    padding-top: 20px;
+}
+
+/* Bottom 3 Cols */
+.Stra-2-Bot {
+    margin: 0 auto;
+    height: 550px;
+}
+.Stra-2-Bot-Cols {
+    float: left;
+    height: 100%;
+    width: 33.3334%;
+}
+.Stra-2-Bot-Cols p {
+    text-align: left;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 20px;
+}
+.Stra-Pics {
+    margin: 40px 0px;
+    width: 290px;
+}
+
+    
+    
+    
+    
+
+
+
+
+
+
+/*---------------------*/
+/*      Double Col     */
+/*---------------------*/
+.DoubleCol {
+    height: 820px;
+}
+
+/* Column Left */
+.DC-Left {
+    /* Widths by Style [Left/Right] */
+    height: 100%;
+    width: 50%;
+    float: left;
+    background: url("../images/Pages/01-Home/04-DoubleCol/01-Offshore-Rig.jpg") right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Column Right */
+.DC-Right {
+    position: relative;
+    background: #353D4D;
+    /* Widths by Style [Left/Right] */
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+.DC-Right p {
+    color: #B7B7B7;
+    line-height: 25px;
+}
+.DC-Right h2 {
+    color: #F7F7F8;
+    margin-bottom: 15px;
+}
+
+
+
+/* Content */
+.DCR-Content {
+    position: relative;
+    margin: 0 auto; /* Centers Box */
+    text-align: left;
+    top: 50%; /* Vertical Centering */
+    transform: translate(0%, -50%);
+    height: 500px; /* Content Box Height */
+    width: 560px;
+}
+.DCR-icon {
+    text-align: center; /* Centers Icon */
+    height: 100px;
+}
+
+#DC-ico {
+    height: 70px; /* Icon Size */
+   }
+
+
+.DCR-Goals { /* Goals & Achievements */
+    position: relative;
+    margin: 0 auto;
+    height: 250px;
+   }
+
+
+
+/* -- Counters ---*/
+.DCR-Counters {
+    height: 150px;
+}
+.DCR-Float {
+    float: left;
+    width: 30%;
+}
+    .Gold {
+        color: #D4A971;
+        font-size: 2.2em;
+    }
+    .White {
+        color: #F8F9F9;
+        font-size: 0.9em;
+    }
+
+  
+  
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Mobile Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (max-width: 479px) {
+
+
+/*------------------*/
+/*   Intro Banner   */
+/*------------------*/
+.Banner {
+    /* Nothing to change */
+}
+
+.Caption {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Caption h1 {
+	line-height: 50px;
+}
+.Caption p {
+    font-size: 0.9em;
+	line-height: 28px;
+}
+
+
+
+
+/*---------------------*/
+/*       Squares       */
+/*---------------------*/
+.Sq {
+    width: 300px;
+    }
+
+/* Create four equal columns that floats next to each other */
+.SqCol {
+    height: 450px;
+    width: 100%;
+    padding: 20px;
+}
+
+.SqCol-in {
+    height: 400px;
+}
+.SqCol-in i {
+    /* Dots */
+}
+.SqCol-in h3 {
+    /* Nothing */
+}
+.SqCol-txt {
+    height: 130px;
+    font-size: 0.80em;
+}
+.Icon {
+    /* General */
+    }
+
+
+
+
+
+
+/* END Mobile Version */
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Tablet Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     480px - 960px    */
+
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+
+
+/*------------------*/
+/*   Intro Banner   */
+/*------------------*/
+.Banner {
+}
+
+.Caption {
+    min-width: 400px;
+    max-width: 680px;
+    padding: 20px;
+    height: 380px;
+    text-align: center;
+}
+
+.Caption h1 {
+	line-height: 50px;
+}
+.Caption p {
+    font-size: 1em;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/*---------------------*/
+/*       Squares       */
+/*---------------------*/
+.Sq {
+    min-width: 460px;
+    max-width: 620px;
+}
+
+/* Create four equal columns that floats next to each other */
+.SqCol {
+    width: 100%;
+    padding: 20px 60px;
+}
+
+.SqCol-in {
+    height: 370px;
+}
+.SqCol-in i {
+    /* Dots */
+}
+.SqCol-in h3 {
+    /* Nothing */
+}
+.SqCol-txt {
+    height: 100px;
+    font-size: 0.85em;
+}
+.Icon {
+    /* General */
+    }
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+/*      Strategy     */
+/*-------------------*/
+.Strategy {
+    /* Nothing */
+    height: 1500px;
+}
+.Stra-1 {
+    padding-top: 100px;
+    width: 450px; /* Section Width */
+    /* This Section with might apply to Selected Styles */
+}
+
+.Stra-2-Top {
+    height: 220px;
+}
+.Stra-2-Top p {
+    font-size: 1em;
+}
+
+/* Bottom 3 Cols */
+.Stra-2-Bot {
+    height: 400px;
+}
+.Stra-2-Bot-Cols {
+    height: 450px;
+    width: 100%;
+}
+.Stra-2-Bot-Cols p {
+    width: 75%;
+    margin-top: 20px;
+}
+.Stra-2-Bot-Cols h3 {
+    margin: 20px 0px;
+    }
+
+.Stra-Pics {
+    width: 280px;
+    border-radius: 15%;
+}
+
+
+
+
+
+
+
+/*---------------------*/
+/*      Double Col     */
+/*---------------------*/
+.DoubleCol {
+    /* Height by Style */
+    height: 600px;
+}
+/* Column Left */
+.DC-Left {
+    /* Widths by Style [Left/Right] */
+    width: 100%;
+}
+/* Column Right */
+.DC-Right {
+    /* Widths by Style [Left/Right] */
+    width: 100%;
+}
+.DC-Right p {
+    color: #B7B7B7;
+    /* Line Height by Style */
+}
+.DC-Right h2 {
+    color: #F7F7F8;
+    margin-bottom: 15px;
+}
+
+
+/* Content */
+.DCR-Content {
+    /* Height and Width by Style */
+    height: 430px;
+    width: 460px;
+}
+.DCR-icon {
+    text-align: center; /* Centers Icon */
+    /* Set Size per Style */
+}
+#DC-ico {
+    height: 60px; /* Icon Size */
+    margin-bottom: 20px;
+   }
+
+
+.DCR-Goals { /* Goals & Achievements */
+    /* Height set per Style */
+    height: 210px;
+   }
+
+
+/* -- Counters ---*/
+.DCR-Counters {
+    /* Set Box Geometry per Style */
+    width: 380px;
+    margin: 0 auto;
+}
+.DCR-Float {
+    width: 33.334%;
+    /* Nothing */
+}
+    .Gold {
+        font-size: 1.8em;
+    }
+    .White {
+        font-size: 0.9em;
+    }
+
+
+
+
+
+/* END Tablet Version */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------*/
+/*                          Small Desktop                      */
+/* ----------------------------------------------------------- */
+                    /*     960px - 1249px    */
+
+@media only screen and (min-width: 961px) and (max-width: 1249px) {
+
+/*------------------*/
+/*   Intro Banner   */
+/*------------------*/
+.Banner {
+}
+
+.Caption {
+    max-width: 850px;
+    padding: 30px;
+}
+
+.Caption h1 {
+	line-height: 90px;
+}
+.Caption p {
+    font-size: 1.1em;
+	line-height: 30px;
+	margin-bottom: 65px;
+}
+
+
+
+
+
+
+/*---------------------*/
+/*       Squares       */
+/*---------------------*/
+.Sq { /* Flik */
+}
+
+/* Create four equal columns that floats next to each other */
+.SqCol {
+  height: 350px;
+  width: 50%;
+  padding: 0px 50px;
+}
+
+.SqCol-in {
+    /* Nothing */
+}
+.SqCol-in i { /* Dots */
+    font-size: 0.4em;
+}
+.SqCol-in h3 {
+    margin-bottom: 15px;
+}
+.SqCol-txt {
+    height: 90px;
+    font-size: 0.88em;
+}
+.Icon {
+    /* General */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+/*      Strategy     */
+/*-------------------*/
+.Strategy {
+    height: 900px;
+}
+.Stra-1 {
+    padding-top: 100px;
+    width: 940px; /* Section Width */
+}
+
+.Stra-2-Top {
+    height: 150px;
+    width: 700px;
+}
+.Stra-2-Top p {
+    /* by Style */
+}
+
+/* Bottom 3 Cols */
+.Stra-2-Bot {
+    height: 550px;
+}
+.Stra-2-Bot-Cols {
+    width: 33.3334%;
+}
+.Stra-2-Bot-Cols p {
+    width: 85%;
+    margin-top: 20px;
+}
+.Stra-Pics {
+    margin: 40px 0px;
+    width: 290px;
+}
+
+
+
+
+
+
+
+
+/*---------------------*/
+/*      Double Col     */
+/*---------------------*/
+.DoubleCol {
+    height: 820px;
+}
+
+/* Column Left */
+.DC-Left {
+    width: 50%;
+}
+
+/* Column Right */
+.DC-Right {
+    width: 50%;
+}
+.DC-Right p {
+    line-height: 25px;
+}
+
+
+/* Content */
+.DCR-Content {
+    height: 500px; /* Content Box Height */
+    max-width: 400px;
+    }
+.DCR-icon {
+    height: 100px;
+}
+#DC-ico {
+    height: 70px; /* Icon Size */
+   }
+.DCR-Goals {
+    height: 250px;
+   }
+
+
+/* -- Counters ---*/
+.DCR-Counters {
+    height: 150px;
+}
+.DCR-Float {
+    width: 30%;
+}
+    .Gold {
+        font-size: 2.2em;
+    }
+    .White {
+        font-size: 0.9em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
